@@ -5,6 +5,8 @@ Example
 ```c
 #include <GY273.h>
 
+int x, y, z;
+
 void setup()
 {
         Serial.begin(9600);
@@ -14,9 +16,6 @@ void setup()
                 while (1); //shotdown the program
         }
 }
-
-
-int x, y, z;
 
 void loop()
 {
