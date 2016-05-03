@@ -1,7 +1,11 @@
 # GY-273-Library
 
-Sample Code
-#
+#Example
+
+##Wiring
+<img src="media/sample.png">
+
+##Code
 ```c
 #include <GY273.h>
 
