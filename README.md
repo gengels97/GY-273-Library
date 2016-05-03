@@ -1,4 +1,4 @@
-# GY-273-Library
+# GY-273 Library
 
 #Example
 
