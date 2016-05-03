@@ -2,7 +2,7 @@
 
 Example
 #
-```
+```c
 #include <GY273.h>
 
 void setup()
