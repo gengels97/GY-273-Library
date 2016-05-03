@@ -1,6 +1,6 @@
 # GY-273-Library
 
-Example
+Sample Code
 #
 ```c
 #include <GY273.h>
