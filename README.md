@@ -5,7 +5,7 @@
 ##Wiring
 <img src="media/sample.png">
 
-##Code
+##Arduino Code
 ```c
 #include <GY273.h>
 
