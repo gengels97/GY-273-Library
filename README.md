@@ -14,10 +14,10 @@ int x, y, z;
 void setup()
 {
         Serial.begin(9600);
-        if (!GY273Setup())
+        while (!GY273Setup())
         {
-                Serial.println("failed to setup GY-273");
-                while (1); //shotdown the program
+                Serial.println("failed to initiate the GY-273 setup process. Retrying in 1 second...");
+                delay(1000);
         }
 }
 
