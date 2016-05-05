@@ -14,7 +14,7 @@ int x, y, z;
 void setup()
 {
         Serial.begin(9600);
-        while (!GY273Setup())
+        while (GY273Setup() != GY273_SUCCESS)
         {
                 Serial.println("failed to initiate the GY-273 setup process. Retrying in 1 second...");
                 delay(1000);
