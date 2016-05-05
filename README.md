@@ -11,8 +11,8 @@
 
 template<class T> inline Print &operator <<(Print &obj, T arg)
 {
-	obj.print(arg);
-	return obj;
+    obj.print(arg);
+    return obj;
 }
 
 #define cout Serial
@@ -35,17 +35,7 @@ void loop()
         GY273Read(GY273_X, &x);
         GY273Read(GY273_Y, &y);
         GY273Read(GY273_Z, &z);
-        
-        Serial.print("x=");
-        Serial.print(x, DEC);
-        Serial.print(" ");
-        Serial.print("y=");
-        Serial.print(y, DEC);
-        Serial.print(" ");
-        Serial.print("z=");
-        Serial.print(z, DEC);
-        Serial.println();
-        
+        cout << "x=" << x << " y=" << y << " z=" << z << endl;
         delay(60);
 }
 ```
