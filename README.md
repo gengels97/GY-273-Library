@@ -1,7 +1,5 @@
 # GY-273 Library
 
-#Example
-
 ##Wiring
 <img src="media/sample.png">
 
