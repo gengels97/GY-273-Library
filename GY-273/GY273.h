@@ -30,7 +30,7 @@
 		Wire.write(0x03); //select register 3, X MSB register
 		Wire.endTransmission();
 		Wire.requestFrom(address, 6); //Read data from each axis, 2 registers per axis
-		if(6<=Wire.available())
+		if(6 <= Wire.available())
 		{
 			x = Wire.read() << 8; //X msb
 			x |= Wire.read(); //X lsb
